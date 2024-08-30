@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "8f05a33e-f318-4e88-beb1-25a8efa9c984",
+		"name": "asi test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "test",
+			"id": "fbb2f110-3189-4a4a-8299-b8be175245b6",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": "{{url}}/test"
+			},
+			"response": [
+				{
+					"id": "ca7dd1e3-4572-45b8-9ba7-b8b7c67bbcd1",
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "{{url}}/test"
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"responseTime": null,
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "test Copy",
+			"id": "208443d0-5d1e-484f-91a7-1acf48ac59ba",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": "{{url}}/test"
+			},
+			"response": [
+				{
+					"id": "780b0bf5-0993-4b69-b79b-a5b150175263",
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "{{url}}/test"
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"responseTime": null,
+					"body": ""
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "https://28487dbd-06db-426d-82b1-be3347a99866.mock.pstmn.io"
+		}
+	]
+}
