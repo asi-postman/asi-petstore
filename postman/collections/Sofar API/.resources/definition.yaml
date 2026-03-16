@@ -1,0 +1,5 @@
+$kind: collection
+variables:
+  api-token: api-token
+  weather_url: weather_url
+  base_url: base_url

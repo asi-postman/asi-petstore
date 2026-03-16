@@ -1,0 +1,6 @@
+$kind: http-request
+url: https://{{base_url}}/api/devices?token={{api-token}}
+method: GET
+queryParams:
+  token: "{{api-token}}"
+order: 1000

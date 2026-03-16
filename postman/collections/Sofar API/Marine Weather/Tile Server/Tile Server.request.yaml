@@ -1,0 +1,8 @@
+$kind: http-request
+url: https://{{weather_url}}/v1/models/tile/:model/tile/{z}/{x}/{y}.png?token={{api-token}}
+method: GET
+queryParams:
+  token: "{{api-token}}"
+pathVariables:
+  model: NOAACoralReefWatch
+order: 1000

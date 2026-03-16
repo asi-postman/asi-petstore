@@ -1,0 +1,6 @@
+$kind: http-request
+url: https://{{weather_url}}/v1/models/SofarOperationalWaveModel/outputTimes/?token={{api-token}}
+method: GET
+queryParams:
+  token: "{{api-token}}"
+order: 3000

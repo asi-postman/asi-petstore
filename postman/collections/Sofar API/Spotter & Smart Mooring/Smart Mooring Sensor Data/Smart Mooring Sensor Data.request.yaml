@@ -1,0 +1,9 @@
+$kind: http-request
+url: https://{{base_url}}/api/sensor-data?spotterId=SPOT-0222&startDate=2021-10-01&endDate=2021-11-02&token={{api-token}}
+method: GET
+queryParams:
+  spotterId: SPOT-0222
+  startDate: 2021-10-01
+  endDate: 2021-11-02
+  token: "{{api-token}}"
+order: 1000

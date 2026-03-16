@@ -1,0 +1,11 @@
+$kind: http-request
+url: https://{{weather_url}}/v1/models/SofarOperationalWaveModel/forecast/point?token={{api-token}}&longitude=-152.0001&latitude=37.12345&variableIDs=SofarOperationalWaveModel-significantWaveHeight,SofarOperationalWaveModel-meanDirection
+method: GET
+headers:
+  Content-Type: application/json
+queryParams:
+  token: "{{api-token}}"
+  longitude: "-152.0001"
+  latitude: "37.12345"
+  variableIDs: SofarOperationalWaveModel-significantWaveHeight,SofarOperationalWaveModel-meanDirection
+order: 1000

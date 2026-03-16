@@ -1,0 +1,6 @@
+$kind: http-request
+url: https://{{weather_url}}/v1/data-categories?token={{api-token}}
+method: GET
+queryParams:
+  token: "{{api-token}}"
+order: 4000

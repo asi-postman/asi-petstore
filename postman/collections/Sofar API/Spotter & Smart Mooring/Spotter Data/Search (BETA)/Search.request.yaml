@@ -1,0 +1,12 @@
+$kind: http-request
+url: https://{{base_url}}/api/search?token={{api-token}}&shape=circle&startDate=2021-11-02&endDate=2021-11-03&shapeParams=37.777777,
+  -122.1212121&radius=10000
+method: GET
+queryParams:
+  token: "{{api-token}}"
+  shape: circle
+  startDate: 2021-11-02
+  endDate: 2021-11-03
+  shapeParams: 37.777777, -122.1212121
+  radius: "10000"
+order: 1000

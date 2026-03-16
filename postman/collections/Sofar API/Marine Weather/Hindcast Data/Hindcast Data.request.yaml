@@ -1,0 +1,11 @@
+$kind: http-request
+url: https://{{weather_url}}/v1/models/SofarOperationalWaveModel/hindcast/point?token={{api-token}}&longitude=-152&latitude=37&variableIDs=SofarOperationalWaveModel-significantWaveHeight&start=2021-11-01&end=2021-11-03
+method: GET
+queryParams:
+  token: "{{api-token}}"
+  longitude: "-152"
+  latitude: "37"
+  variableIDs: SofarOperationalWaveModel-significantWaveHeight
+  start: 2021-11-01
+  end: 2021-11-03
+order: 1000

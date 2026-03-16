@@ -1,0 +1,13 @@
+$kind: collection
+name: Marine Weather
+scripts:
+  - type: http:beforeRequest
+    code: |-
+      try {
+          const response = await pm.execution.runRequest("Select request");
+
+          console.log(response.json());
+      } catch (err) {
+          console.error(err);
+      }
+order: 1000
