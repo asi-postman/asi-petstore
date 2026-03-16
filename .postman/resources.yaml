@@ -1,0 +1,9 @@
+# Use this workspace to collaborate
+workspace:
+  id: 626b74e2-e1d2-45fa-87a6-03c9be3abf20
+
+localResources:
+  collections:
+    - ../backup/asi_test.json
+  specs:
+    - ../asi-petstore.yml
