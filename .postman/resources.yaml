@@ -7,3 +7,8 @@ localResources:
     - ../backup/asi_test.json
   specs:
     - ../asi-petstore.yml
+
+# Each entry here maps a local resource to one or more corresponding objects in Postman Cloud
+cloudResources:
+  collections:
+    ../postman/collections/Echo Test: 18046-b74e38c4-57fc-4d0f-a827-124f271af32c

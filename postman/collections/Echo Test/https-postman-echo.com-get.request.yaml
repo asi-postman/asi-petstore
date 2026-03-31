@@ -1,0 +1,24 @@
+$kind: http-request
+name: https://postman-echo.com/get
+url: https://postman-echo.com/get?
+method: GET
+queryParams:
+  "": null
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test("Status code is 200", function () {
+          pm.response.to.have.status(200);
+      });
+    language: text/javascript
+  - type: beforeRequest
+    code: |-
+      try {
+          const response = await pm.execution.runRequest("Select request");
+
+          console.log(response.json());
+      } catch (err) {
+          console.error(err);
+      }
+    language: text/javascript
+order: 1000
